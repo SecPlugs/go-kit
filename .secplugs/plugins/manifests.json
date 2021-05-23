@@ -1,0 +1,21 @@
+[
+  {
+    "name":"bash_kit",
+    "type":"generic",
+    "title":"GO Kit",
+    "created_by":"TheStig@secplugs.com",
+    "description":"Easily analyze objects from within your Go application",
+    "content":{
+      "summary":"https://secplugs.github.io/go-kit/docs/summary.html",
+      "detail":"https://secplugs.github.io/go-kit/docs/detail.html"
+    },
+    "images":{
+      "small":"@.secplugs/plugins/go_kit/small_image.png",
+      "normal":"@.secplugs/plugins/go_kit/normal_image.png"
+    },
+    "links":{
+      "github":"https://github.com/SecPlugs/go-kit",
+      "more_info" : "https://secplugs.github.io/go-kit/docs"
+    }
+  }
+]
