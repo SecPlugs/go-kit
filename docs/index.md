@@ -8,10 +8,24 @@
 {% include_relative _detail.md %}
 
 ## Quick Start
-Quick start
+Obtain the go module by simply running the commands below.
+```console
+GO111MODULE=on go get secplugs.com/filescan
+```
+You'll now have the module in your `$GOPATH`
 
 ## Usage
-Usage description
+Here, a very simple example of how to integrate file scan with your go code base is provided
+{% include_relative usage.md %}
+
+To avail yourself of the complete set of vendors and features provided by secplugs, and to have complete privacy
+for the scans you submit, please create an accout at secplugs.com, login to the portal and create a new API key.
+Please not that this API key is confidential.
+
+After registering with secplugs.com and creating an API key, the only change to the code sample about would be
+{% include_relative registered_usage.md %}
+
+Everything else remains the same.
 
 ## Contact
 Having trouble? [Contact Secplugs ](https://secplugs.com/contacts)
