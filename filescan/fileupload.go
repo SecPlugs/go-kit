@@ -48,6 +48,19 @@ func NewDefaultScanClient() *ScanClient {
 	return client
 }
 
+func (client *ScanClient) IsClean(filename string) (bool, error) {
+	result, err := client.ScanFile(filename)
+	if err != nil {
+		return false, err
+	} else {
+		clean := false
+		if result.Score >= SECPLUGS_CLEAN_MID_SCORE {
+			clean = true
+		}
+		return clean, nil
+	}
+}
+
 // ScanFile is the high-level to submit a file to Secplugs for a quickscan.
 // It generates a pre-signed URL, uploads the file to that URL and the triggers
 // a quick scan.
