@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"secplugs.com/filescan"
+	"github.com/secplugs/go-kit/filescan"
 )
 
 func TestNewDefaultScanClient(t *testing.T) {
