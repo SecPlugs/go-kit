@@ -1,7 +1,7 @@
 #### What is the Go Kit?
 
-A go module(`github.com/secplugs/go-kit/filescan`) that can be readily integrated into your code base to submit data for malware scan
-Currently the plugin supports file scans
+A go module (`github.com/secplugs/go-kit/filescan`) that can be readily integrated into your code base to submit data for malware analysis.  
+Currently the plugin supports file scans.
 
 #### What are the features?
 
