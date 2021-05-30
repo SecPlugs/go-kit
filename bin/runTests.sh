@@ -19,7 +19,7 @@ function check_return_code_not_ok {
     fi
 }
 
-echo 'Run tests here'
+command -v go >/dev/null && go run scan.go
 
 check_return_code_ok 0
 
