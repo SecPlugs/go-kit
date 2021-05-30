@@ -10,7 +10,7 @@
 ## Quick Start
 Obtain the go module by simply running the commands below.
 ```console
-GO111MODULE=on go get secplugs.com/filescan
+GO111MODULE=on go get github.com/secplugs/go-kit/filescan
 ```
 You'll now have the module in your `$GOPATH`
 

@@ -1,6 +1,6 @@
 #### What is the Go Kit?
 
-A go module(`secplugs.com/filescan`) that can be readily integrated into your code base to submit data for malware scan
+A go module(`github.com/secplugs/go-kit/filescan`) that can be readily integrated into your code base to submit data for malware scan
 Currently the plugin supports file scans
 
 #### What are the features?
@@ -14,7 +14,7 @@ The library supports all the standard Secplugs functionality allowing access to 
 
 #### How do I get started?
 
-To get started download the module (via `go get secplugs.com/filescan`) and use it in your Go code. This will work out of the box.
+To get started download the module (via `go get github.com/secplugs/go-kit/filescan`) and use it in your Go code. This will work out of the box.
 
 To use additional features and the privacy of your own account, after registering in Secplugs.com, login with your username and create an API key to use with your Go code. 
 Create a new instance of the scan client with the API key and use it in your code.

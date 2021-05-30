@@ -5,7 +5,7 @@ import (
         "fmt"
         "log"
 
-        "secplugs.com/filescan"
+        "github.com/secplugs/go-kit/filescan"
 )
 
 func main() {
