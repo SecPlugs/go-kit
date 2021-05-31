@@ -17,9 +17,13 @@ jobs:
       - name: Pull code
         uses: actions/checkout@v2
 
-      - name: Run Tests
+      - name: Get Go
+        uses: actions/setup-go@v2
+        with:
+          go-version: '1.16.4'
+
+      - name: Run tests
         run: |
           ./bin/runTests.sh
 
 
- 
