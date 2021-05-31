@@ -19,8 +19,10 @@ function check_return_code_not_ok {
     fi
 }
 
-command -v go >/dev/null && GO111MODULE=on go run scan.go
+command -v go >/dev/null && pushd . && cd bin && GO111MODULE=on go run .
 
 check_return_code_ok 0
+
+popd
 
 echo 'tests pass'
