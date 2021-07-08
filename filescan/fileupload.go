@@ -177,7 +177,7 @@ func (info UploadInfo) GetUrl() string {
 // usecases of a file scan. The most common type of file scans at Secplugs.
 func (client *ScanClient) QuickScan() (ScanResult, error) {
 	scanContext := map[string]string{
-		"filename":    client.FileName,
+		"file_name":   filepath.Base(client.FileName),
 		"client_uuid": "test-uuid",
 	}
 	ctxt, err := json.Marshal(scanContext)
@@ -197,7 +197,6 @@ func (client *ScanClient) QuickScan() (ScanResult, error) {
 	q.Add("sha256", sha256)
 	q.Add("scancontext", string(ctxt))
 	req.URL.RawQuery = q.Encode()
-
 	resp, err := httpClient.Do(req)
 	if err != nil {
 		return ScanResult{}, err
