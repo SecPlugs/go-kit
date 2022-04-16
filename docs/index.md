@@ -1,3 +1,6 @@
+---
+layout: none
+---
 
 ## About
 {% include_relative _detail.md %}
