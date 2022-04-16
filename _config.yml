@@ -1,4 +1,4 @@
-theme: jekyll-theme-midnight
+theme: none
 title: Secplugs Go Kit
 google_analytics: G-4MB8SZYEBR
 description: Easily analyze objects from your Go application
