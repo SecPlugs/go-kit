@@ -6,15 +6,7 @@
 A set of examples and tools to access the Secplugs platform written in Go. 
 
 ## Usage & More Info
-See the [Go Kit GitHub Pages](https://docs.secplugs.com/go-kit/docs) for usage and other information
+See the [Go Kit Docs](https://scancloud.io/index.php/docs?plugin=plugin-secplugs-go-kit) for usage and other information
 
-## Repository Layout
-This repository is laid out as follows..
 
-| Folder        | Description |
-| ------------- |:-------------| 
-| .secplugs     | contains the meta data to import into the Secplugs portal |
-| .github       | GitHub Actions definitions |
-| bin           | Utility scripts     |
-| docs          | Documentation source  |
 
