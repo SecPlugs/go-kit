@@ -8,7 +8,7 @@ The plugin is open source so you can modify as you wish.
 
 ## Installation
 Get the go module by simply running the commands below.
-```console
+```bash
 GO111MODULE=on go get github.com/secplugs/go-kit/filescan
 ```
 You'll now have the module in your `$GOPATH`
